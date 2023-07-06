@@ -1,0 +1,71 @@
+// let str: string = "Hellow"
+// str = "Bro"
+// let num: number = 12345
+// num = str.length
+// num = 432432
+// let dataAny: any = "Hellow"
+// dataAny = 13123
+// dataAny = true
+// let noType = "Hellow"
+// noType = "Hi"
+// let numNoType = 13213
+// numNoType = 12321
+// let boolNoType = false
+// boolNoType = true
+// let data: any = []
+// let dataAr: any[] = []
+// data.push(13123,"fafas",true)
+// dataAr.push(13123,"fafas",true)
+// console.log(data);
+// console.log(dataAr);
+// let anyStr: string[] = []
+// anyStr.push("hi","hellow")
+// let anyNum: number[] = []
+// anyNum.push(1, 2, 3)
+// let anyBoole: boolean[] = []
+// anyBoole.push(true, false)
+// console.log(anyStr);
+// console.log(anyNum);
+// console.log(anyBoole);
+// let dataAr: [string, number] = ["hellow", 2132]
+// dataAr = ["Hi", 4444]
+// console.log(dataAr);
+// let dataAr: [] = []
+// dataAr = []
+// let union1: number | string = "hellow"
+// let union2: number | string = 12345
+// let union3: number | string | boolean = true
+// let union4: number | string | boolean = 12345
+// console.log(union1);
+// console.log(union2);
+// console.log(union3);
+// console.log(union4);
+// let union: [string | number] = [3]
+// let unionAny: any[string | number] = ["hi", "hellow", 21321,"No"]
+// let tuple: [number, string][];
+// tuple = [[12, "hi"], [13, "hellow"], [14, "One"]]
+// console.log(tuple);
+// enum dir {
+//     up,
+//     down,
+//     top = 30,
+//     bot,
+// }
+// console.log(dir.up, dir.down, dir.top, dir.bot);
+// enum dir {
+//     up = "one",
+//     down = "two",
+//     top = "there",
+//     bot = "five",
+// }
+// console.log(dir.up, dir.down, dir.top, dir.bot);
+// let id: any = 1231
+// let uId = <string>id
+// let uIds = id as boolean
+// id = "dcs"
+// id = 321231
+// uId = "bahj"
+// uIds = true
+// console.log(id);
+// console.log(uId);
+// console.log(uIds);
