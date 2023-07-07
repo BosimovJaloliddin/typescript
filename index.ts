@@ -1,3 +1,5 @@
+//Lesson 2
+
 // let str: string = "Hellow"
 // str = "Bro"
 
@@ -90,6 +92,92 @@
 // console.log(uId);
 // console.log(uIds);
 
+////////////////////////////////////////////////////////////////////////
+// Lesson 3
+
+// function getData(): Function {
+//     return (): string => "Hellow"
+// }
+// console.log(getData()());
+
+// function getData(a:number, b:number): number {
+//     return a*b
+// }
+// console.log(getData(4, 4));
 
 
+// function getData(): number | undefined {
+//     return undefined
+// }
+// console.log(getData());
 
+// function getData(): number | void {
+    
+// }
+// console.log(getData());
+
+
+// type callProp = number
+// function getData(key:number): callProp {
+//     return key
+// }
+// console.log(getData(333))
+
+// type callProp = {
+//     name:string
+// }
+// function getData(key: string): callProp {
+//     return {name: key}
+// }
+// console.log(getData("Ali"))
+
+// type callProp = {
+//     (a:number) : number
+// }
+ 
+// function getData(): callProp {
+//     return (a:number) => a 
+// }
+// console.log(getData()(12))
+
+// type callProp = {
+//     (a:number) : number
+// }
+
+// type param = {
+//     name: string,
+//     age?: number,
+// }
+ 
+// function getData(prop: param): callProp {
+//     return (a:number) => a 
+// }
+// getData({name:"Ali"})
+
+// type callProp = {
+//     new (a:number): Object
+// }
+
+// function getData(fn: callProp): Object{
+//     return new fn(1)
+// }
+
+// function ConsFunc(a:number){
+//     return Date
+// }
+
+// getData(ConsFunc(1))
+
+// type callProp = {
+//     new (): Object;
+// }
+
+// function getData(fn: callProp): string{
+//     return new fn().toString()
+// }
+
+// function ConsFunc (){
+//     return Date
+// }
+
+// getData(ConsFunc())
