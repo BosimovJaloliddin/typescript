@@ -181,3 +181,65 @@
 // }
 
 // getData(ConsFunc())
+
+
+// function test(ar: string[]) {
+//     return (value: string) => {
+//         ar.push(value)
+//         console.log(ar); 
+//     }
+// }
+// let arrBaz = test([])
+// arrBaz("frontend")
+// arrBaz("backend")
+
+// function getData<Type>(ar: Type[]){
+//     return (value:Type) => {
+//         ar.push(value)
+//         console.log(ar);
+        
+//     }
+// }
+// let strArr = getData<string>([])
+// let numArr = getData<number>([])
+// strArr("frontend")
+// strArr("backend")
+// numArr(111)
+// numArr(222)
+
+
+
+// function getData <Type> (ar: Type[]){
+//     return (value: Type) => {
+//         ar.push(value)
+//         return ar
+//     }
+// }
+
+// let strArray = getData<string>([])
+// console.log(strArray("frontend"));
+
+// function getData <Type, Output> (ar: Type[]){
+//     return (value: Type): Output | string => {
+//         ar.push(value)
+//         return "hi"
+//     }
+// }
+
+// let strArray = getData<string, number>([])
+
+// function getData<Type extends {length:number}>(value: Type){
+//     return value.length
+// }
+
+// getData<string>("frontend")
+// getData<number[]>([1234])
+
+// function getData(a: string): string;
+// function getData(a: string, b: string): string;
+// function getData(a: string, b?:string, c?:string): string{
+//     return "hi"
+// }
+// getData("hellow");
+// getData("hi", "hellow");
+// getData("frontend", "backend", "io");
