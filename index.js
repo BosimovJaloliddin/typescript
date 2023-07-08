@@ -186,3 +186,178 @@
 // getData("hellow");
 // getData("hi", "hellow");
 // getData("frontend", "backend", "io");
+// =====================================================================
+// Lesson 4
+// interface user {
+//     name: string;
+//     age: number;
+// }
+// type usr = {
+//     name: string;
+//     age: number;
+// }
+// let obj: usr ={
+//     name: "Ali",
+//     age: 23,
+// }
+// interface nameUser {
+//     name:"Ali"
+// }
+// interface ageUser {
+//     age:23
+// }
+// // interface user extends nameUser, ageUser {}
+// let obj: nameUser | ageUser ={
+//     name: "Ali",
+//     age: 23,
+// }
+// type userName ={
+//     name: string
+// }
+// type userAge ={
+//     age: number
+// }
+// // type user = userName | userAge
+// let obj:  userName | userAge  = {
+//     name: "Ali",
+//     age: 23 
+// }
+// type userName ={
+//     name?: string
+// }
+// type userAge ={
+//     age?: number
+// }
+// let obj:  userName | userAge  = {}
+// interface nameUser {
+//     name?:"Ali"
+// }
+// interface ageUser {
+//     age?:23
+// }
+// interface user extends nameUser, ageUser {}
+// let obj: user ={}
+// interface nameUser {
+//    readonly name?: string
+// }
+// interface ageUser {
+//     age?: number
+// }
+// interface user extends nameUser, ageUser {}
+// let obj: user ={
+//     name: "Nodir",
+//     age: 23
+// }
+// // obj.name = "Vali"  //xatolik beradi
+// obj.age = 33
+// interface nameUser {
+//    readonly name: string
+// }
+// interface ageUser {
+//     age: number
+// }
+// interface user extends nameUser, ageUser {}
+// let obj: user ={
+//     name: "Nodir",
+//     age: 23
+// }
+// interface writable  {
+//     name?: string,
+//     age?: number
+// }
+// let wo: writable = obj
+// wo.name = "Vali"
+// console.log(wo.name);
+// interface user {
+//     name: string;
+//     age:number;
+// }
+// let obj: user = {
+//     name:"Ahmed",
+//     age: 12,
+// }
+// interface user {}
+// let obj: user = {
+//     name:"Ahmed",
+//     age: 12,
+//     titile: "Hellow"
+// }
+// interface IdxSignature {
+// 	[index: string] : string | number; //union orqali bir necha type larni ifodalasak bo'ladi
+// };
+// let obj: IdxSignature = {
+// 	name: "Ali",
+//     age: 23,
+// }
+// interface IdxSignature {
+//     age: number;
+// 	[index: string] : string | number;
+// };
+// let obj: IdxSignature = {
+// 	name: "Ali",
+//     age: 23,
+// }
+// interface User  {
+//     name:string;
+//     age: number;
+// }
+// let obj: User = {
+//     name: "Ali",
+//     age: 23,
+// }
+// interface User {
+//     year: number;
+//     fuc?: () => void
+//     [key: string]: string | number | Function | undefined
+// }
+// let obj: User = {
+//     name: "Ali",
+//     year: 1990,
+//     // fuc(){},
+// }
+// interface User<Type, Num> {
+//     year: Num;
+//     name:Type;
+//     fuc?: () => void
+//     [key: string]: Function | undefined | Type | Num
+// }
+// let obj: User<string, number> = {
+//     name: "Ali",
+//     year: 1990,
+//     fuc(){},
+// }
+// interface User {
+//     name: string;
+//     age: number;
+// }
+// class Persion implements User {
+//     name = "Ali";
+//     age = 30;
+// }
+// interface User {
+//     name: string;
+// }
+// class Persion implements User {
+//     constructor(name: string){
+//         this.name = name
+//     }
+//     name;    
+// }
+// let persion = new Persion("web")
+// console.log(persion);
+// interface User {
+//     age: number;
+// }
+// class Persion implements User {
+//     constructor(name: string){
+//         this.name = name
+//     }
+//     private name;  
+//     age = 23  
+// }
+// let persion = new Persion("web")
+// console.log(persion);
+// type way = "frontend" | "backend" | "IOS"
+// let nameWey1: way = "frontend"
+// type way = -1 | 0 |1
+// let nameWey1: way = 0
