@@ -97,4 +97,5 @@
 // let tupAr: [number, string, boolean] = [1, "Hi", true];
 // tupAr.reverse();
 // console.log(tupAr);
-let arr = [12];
+// let arr: [number, string?, boolean?] = [12];
+console.log("hi");
