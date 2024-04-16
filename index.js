@@ -121,3 +121,10 @@
 //   rus = uzb,
 // }
 // console.log(En.eng);
+// function fun(prop: unknown) {
+//   if (typeof prop === "string") return prop.length;
+// }
+// console.log(fun("hellow"));
+function fun() {
+    throw Error("Error");
+}
