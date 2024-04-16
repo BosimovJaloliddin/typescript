@@ -98,4 +98,26 @@
 // tupAr.reverse();
 // console.log(tupAr);
 // let arr: [number, string?, boolean?] = [12];
-console.log("hi");
+// enum En {
+//   one,
+//   two = 4,
+//   there,
+// }
+// console.log(En);
+// enum En {
+//   nodir = 100,
+//   jalol = "hi",
+//   eldor = "10",
+// }
+// console.log(En.eldor);
+// enum NewEn {
+//   two = "uzb",
+//   one = 1,
+//   there,
+// }
+// const enum En {
+//   uzb = "uzbek",
+//   eng = "10",
+//   rus = uzb,
+// }
+// console.log(En.eng);
