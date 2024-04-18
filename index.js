@@ -129,3 +129,24 @@
 //   throw Error("Error");
 // }
 // =======================================
+// interface T extends TT, TA {
+//   readonly name: string;
+//   jobs?: number | string[];
+// }
+// type TT = {
+//   id: number;
+// };
+// type TA = {
+//   age: number | string;
+// };
+// let obj2: T = {
+//   id: 2,
+//   name: "furqat",
+//   age: 23,
+// };
+// let obj1: T = {
+//   id: 1,
+//   name: "Ali",
+//   age: 30,
+//   jobs: [],
+// };
