@@ -1,12 +1,11 @@
 "use strict";
 // let str:string="Hellow"
 // str.toUpperCase
-let obj = {
-    name: "nexia",
-    speed: "200",
-    age: 2017,
+let obj1 = {
+    name: "Ali",
+    age: 23,
+    status: "student",
 };
-const getData = (key) => {
-    return obj[key];
-};
-console.log(getData("name"));
+let obj2 = obj1;
+obj2.name = "New Name";
+console.log(obj1.name);
