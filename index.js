@@ -125,6 +125,7 @@
 //   if (typeof prop === "string") return prop.length;
 // }
 // console.log(fun("hellow"));
-function fun() {
-    throw Error("Error");
-}
+// function fun(): never {
+//   throw Error("Error");
+// }
+// =======================================
