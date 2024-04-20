@@ -238,3 +238,26 @@
 // obj2.name = "New Name";
 // console.log(obj1.name);
 // ======================================
+// function fun(a: number, b: number): void {
+//   console.log(a * b);
+// }
+// fun(2, 1);
+// function fun(a: number, ...rest: number[]) {
+//   console.log(a, ...rest);
+// }
+// console.log(fun(1, 2, 4, 5, 6, 7, 8));
+// interface Rest {
+//   num: string;
+//   sum: number[];
+// }
+// function fun(a: string, ...rest: number[]): Rest {
+//   return { num: a, sum: rest };
+// }
+// fun("1", 2, 2, 3);
+// type Prop = {
+//   new (): void;
+// };
+// function fun(prop: Prop) {
+//   // prop();
+// }
+// fun(Date);
