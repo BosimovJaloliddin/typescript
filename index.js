@@ -261,3 +261,23 @@
 //   // prop();
 // }
 // fun(Date);
+// function fun(a: string): number;
+// function fun(a: number, b: number): number;
+// function fun(a: number, b: number, c: boolean): number;
+// function fun(a: number, b: number, c: number, d: number): number;
+// function fun(a: any, b?: any, c?: any, d?: any): any {
+//   return 1;
+// }
+// fun("1");
+// fun(1, 2);
+// fun(1, 2, true);
+// fun(2, 3, 10, 2);
+// function fun(a: number): void;
+// function fun(a: string): void;
+// function fun(a: number | string): void {
+//   console.log(a);
+// }
+// let str = "Hellow";
+// fun(str.length > 2 ? 1 : "hi");
+// fun(1);
+// fun("hi");
