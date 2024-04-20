@@ -281,3 +281,43 @@
 // fun(str.length > 2 ? 1 : "hi");
 // fun(1);
 // fun("hi");
+// const getData = (data: unknown) => {
+//   if (typeof data === "string") console.log(data.length);
+//   if (Array.isArray(data)) console.log(data);
+// };
+// getData("aq");
+// getData([]);
+// let obj: unknown = {};
+// if (typeof obj === "string")
+//   for (let i of obj) {
+//   }
+// const getType = function (a: unknown, b: number, c: string) {
+//   if (a === c) {
+//     a.toUpperCase;
+//   } else if (a === b) {
+//     a.toFixed();
+//   }
+// };
+// let data: unknown;
+// if (data instanceof Date) {
+//   console.log(data.getHours());
+// }
+// function fun(a: unknown, b: number, c: string) {
+//   if (typeof a === "string") a.repeat(b);
+// }
+// function getData(a: unknown) {
+//   (a as string).length; // Agar a string ko'rinishida kelsa leng ishlasin
+// }
+// interface Prop {
+//   name: string;
+//   age?: number;
+//   num: number;
+//   status: "active" | "inactive";
+// }
+// let obj: Prop = {
+//   name: "Ali",
+//   age: 12,
+//   num: 32,
+//   status: "active",
+// };
+// let sum = obj.num * obj.age!;
