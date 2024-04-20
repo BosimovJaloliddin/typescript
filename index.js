@@ -237,3 +237,4 @@
 // let obj2: { name: string } = obj1;
 // obj2.name = "New Name";
 // console.log(obj1.name);
+// ======================================
