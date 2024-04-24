@@ -322,3 +322,15 @@
 // };
 // let sum = obj.num * obj.age!;
 // =============================
+// type TypeObj = {
+//   name: string;
+//   age: number;
+//   status: string;
+// };
+let obj = {
+    name: "ali",
+    age: 12,
+    status: "student",
+};
+let key = "name";
+console.log(obj[key]);
