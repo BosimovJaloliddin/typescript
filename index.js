@@ -323,14 +323,25 @@
 // let sum = obj.num * obj.age!;
 // =============================
 // type TypeObj = {
+//   [a: string]: string | number | undefined;
 //   name: string;
 //   age: number;
 //   status: string;
+//   title?: string;
 // };
-let obj = {
-    name: "ali",
-    age: 12,
-    status: "student",
-};
-let key = "name";
-console.log(obj[key]);
+// let obj = {
+//   name: "ali",
+//   age: 12,
+//   status: "student",
+// };
+// const getValueObj = function (obj: TypeObj, key: string) {
+//   console.log(obj[key]);
+// };
+// getValueObj(obj, "name");
+// type TypeFun = (x: string) => string | number;
+// function fun(x: number): number {
+//   return x;
+// }
+// // type InputType = ReturnType<TypeFun>;
+// type InputType = ReturnType<typeof fun>;
+// let title: InputType = 123;
