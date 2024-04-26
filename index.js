@@ -351,5 +351,5 @@
 // console.log((userName as { name: string }).name);
 // let data: unknown = 12345;
 // let num: number = <number>data;
-let arr = [1, 23];
-let prom;
+// let arr: Array<number> = [1, 23];
+// let prom: Promise<number>;
