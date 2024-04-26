@@ -345,3 +345,11 @@
 // // type InputType = ReturnType<TypeFun>;
 // type InputType = ReturnType<typeof fun>;
 // let title: InputType = 123;
+// /// <reference path="data.ts"/>
+// console.log(car);
+// let userName: unknown = { name: "Ali" };
+// console.log((userName as { name: string }).name);
+// let data: unknown = 12345;
+// let num: number = <number>data;
+let arr = [1, 23];
+let prom;
