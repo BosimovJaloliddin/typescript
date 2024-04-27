@@ -359,3 +359,22 @@
 // }
 // generic<string>("Hellow");
 // generic<number>(12);
+// ===========================
+// function generic<T, T2>(prop: T, age: T2) {
+//   console.log(prop, age);
+// }
+// generic<string, number>("Hellow", 12);
+// function Generic<T extends { id: number; name: string }>(data: T) {
+//   console.log(data.id);
+//   console.log(data.name);
+// }
+// interface UserT {
+//   id: number;
+//   name: string;
+//   status: string;
+// }
+// Generic<UserT>({
+//   id: 1,
+//   name: "Shokir",
+//   status: "student",
+// });
