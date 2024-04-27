@@ -353,3 +353,9 @@
 // let num: number = <number>data;
 // let arr: Array<number> = [1, 23];
 // let prom: Promise<number>;
+// ===================================
+// function generic<T>(prop: T): T {
+//   return prop;
+// }
+// generic<string>("Hellow");
+// generic<number>(12);
