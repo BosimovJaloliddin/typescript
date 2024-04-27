@@ -378,3 +378,7 @@
 //   name: "Shokir",
 //   status: "student",
 // });
+function Generic(data) {
+    console.log(data);
+}
+Generic(["One"]);
