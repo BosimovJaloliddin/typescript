@@ -378,7 +378,7 @@
 //   name: "Shokir",
 //   status: "student",
 // });
-function Generic(data) {
-    console.log(data);
-}
-Generic(["One"]);
+// function Generic<T>(data: T) {
+//   console.log(data);
+// }
+// Generic<string[]>(["One"]);
