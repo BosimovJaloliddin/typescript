@@ -382,3 +382,13 @@
 //   console.log(data);
 // }
 // Generic<string[]>(["One"]);
+// interface Prop {
+//   name: string;
+//   age: number;
+//   status: string;
+// }
+// let userData: Prop = {
+//   name: "Jaloliddin",
+//   age: 25,
+//   status: "student",
+// };
