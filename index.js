@@ -1,10 +1,15 @@
 "use strict";
 // let str:string="Hellow"
 // str.toUpperCase
-function getUser(user) {
-    return user;
+function getData(data) {
+    let config = {
+        method: "POST",
+        headers: {
+            Authorization: "Bearer",
+            "Content-Type": "Aplication/json",
+        },
+        body: data,
+    };
+    return config;
 }
-const GenericUser = getUser;
-const Generic = getUser;
-GenericUser(12);
-Generic("sq");
+getData({ id: 1, name: "Jalol" });
