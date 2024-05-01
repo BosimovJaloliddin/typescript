@@ -467,3 +467,7 @@
 // console.log(+"Infinity");
 // console.log(str); // ?
 // let str = "Hello";
+// function fun() {
+//   let a = "hi";
+//   console.log(this);
+// }
